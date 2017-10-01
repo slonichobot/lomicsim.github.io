@@ -1,0 +1,91 @@
+body {
+    max-width: 50em;
+    margin: 0 auto;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-family: 'Lato', 'Helvetica Neue', 'helvetica', sans-serif;
+    line-height: 1.5;
+    padding: 2em 1em 4em 1em;
+    color: #333;
+    padding: 0 7em;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+
+h2 {
+	border-top: 1px solid black;
+	margin-top: 1em;
+	padding-top: 1em;
+}
+
+p {
+	margin-top: 0;
+}
+
+a {
+	color: #BF2F24;
+	font-style: italic;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+em, div.dd > strong {
+ 	color: black;
+ 	font-weight: bold;
+ }
+
+
+div.dt, div.dd {
+	margin-left: -7em;
+}
+
+div.dt {
+	display: table;
+	width: 100%;
+}
+
+div.dr {
+    display: table-row;
+}
+
+div.dr > *, div.dd > * {
+	display: table-cell;
+}
+
+div.dr > em {
+	font-weight: strong;
+}
+
+div.dr > :nth-child(odd), div.dd > :nth-child(odd) {
+	width: 6em;
+	text-align: right;
+	font-style: italic;
+	padding-right: 1em;
+}
+
+div.dr > :nth-child(odd):after, div.dd > :nth-child(odd):after {
+	content: ':';
+}
+
+ div.dd > ul, div.dd > ol {
+	padding-bottom: 1em;
+}
+
+
+.line:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.line :first-child {
+    float: left;
+}
+
+.line :last-child {
+    float: right;
+}
